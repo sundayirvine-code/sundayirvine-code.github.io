@@ -31,3 +31,12 @@ body{
     font-size: 38px;
     font-weight: 300;
 }
+#hour{
+    color: #8bd3dd;
+}
+#minute{
+    color:#F582AE;
+}
+#second{
+    color: #BAE8E8;
+}
