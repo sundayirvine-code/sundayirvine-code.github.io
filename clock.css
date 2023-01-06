@@ -1,42 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #fffffe;
-}
-body{
-    background-color: #161616;
-}
-.container{
-    width: 50%;
-    height: 70%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-#date{
-    height: 45%;
-}
-#time{
-    height: 45%;
-}
-#date > div{
-    padding-left: 15px;
-    font-size: 58px;
-    font-weight: 800;
-}
-#time > div{
-    padding-left: 15px;
-    font-size: 38px;
-    font-weight: 300;
-}
-#hour{
-    color: #8bd3dd;
-}
-#minute{
-    color:#F582AE;
-}
-#second{
-    color: #BAE8E8;
-}
+.container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .clock {
+      font-size: 3em;
+      margin: 0.5em;
+    }
+
+    .date {
+      font-size: 1.5em;
+      margin: 0.5em;
+    }
